@@ -39,6 +39,10 @@
     margin-top: 30px;
 }
 
+.console{
+    margin-top: 30px;
+}
+
 .console img{
     width: 50%
 }
@@ -46,4 +50,32 @@
 .accessori .col img{
     margin-top: 30px;
     width: 45%;
+}
+
+.ms_big2{
+    height: 650px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
+
+.ms_big2 .col-12 .content img{
+    width: 10%;
+}
+
+.new{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.new .col img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.play4 img{
+    width: 60%;
+}
+
+.play4{
+    margin-bottom: 3opx;
 }
