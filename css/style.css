@@ -22,10 +22,6 @@
     width: 10%;
 }
 
-.ms_big button{
-    background-color: red;
-}
-
 .ms_square img{
     width: 30%;
 }
@@ -63,8 +59,9 @@
 }
 
 .new{
-    margin-top: 30px;
     margin-bottom: 30px;
+    background-color: #191919;
+    color: white;
 }
 
 .new .col img{
@@ -78,4 +75,29 @@
 
 .play4{
     margin-bottom: 3opx;
+}
+
+.plus{
+    background-color: lightgray;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.plus img{
+    width: 40%;
+}
+
+.sconti img{
+    width: 50%;
+}
+
+.now{
+    background-color: #000066;
+    height: 300px;
+    margin-top: 30px;
+    color: white;
+}
+
+.now img{
+    width: 40%;
 }
