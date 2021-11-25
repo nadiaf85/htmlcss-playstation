@@ -1,16 +1,36 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
+    padding: 0;
 }
-
-/* .header_top{
-    height: 20px;
-} */
 
 .header_top img{
     height: 20px;
 }
 
 .ms_big{
+    height: 650px;
     background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+}
+
+.ms_big .col-12{
+    color: white;
+}
+
+.ms_big .col-12 .content img{
+    width: 10%;
+}
+
+.ms_big button{
+    background-color: red;
+}
+
+.ms_square img{
+    width: 30%;
+}
+
+.ms_square .col img{
+    margin-top: 30px;
+    width: 100%;
 }
