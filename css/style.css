@@ -8,6 +8,10 @@
     height: 30px;
 }
 
+.dropdown-menu img{
+    height: 90px;
+}
+
 .ms_big{
     height: 650px;
     background-image: url(../img/jumbo-bg.png);
@@ -86,7 +90,7 @@
 }
 
 .sconti img{
-    width: 50%;
+    width: 100%;
 }
 
 .now{
@@ -98,4 +102,13 @@
 
 .now img{
     width: 40%;
+}
+
+.social{
+    height: 400px;
+}
+
+.social img{
+    width: 40%;
+    
 }
