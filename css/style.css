@@ -9,10 +9,6 @@
     width: 5%;
 }
 
-/* .header_bottom{
-    position: fixed;
-} */
-
 .dropdown-menu img{
     height: 90px;
 }
@@ -118,6 +114,7 @@
 
 .plus img{
     width: 40%;
+    margin-bottom: 30px;
 }
 
 .plus .soul{
@@ -141,6 +138,7 @@
 
 .now img{
     width: 40%;
+    margin-bottom: 30px;
 }
 
 .now .avengers{
@@ -163,7 +161,13 @@ footer{
     padding: 30px;
 }
 
+footer img{
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .img_footer{
-    width: 10%;
+    width: 15%;
 }
 
