@@ -9,6 +9,10 @@
     width: 5%;
 }
 
+/* .header_bottom{
+    position: fixed;
+} */
+
 .dropdown-menu img{
     height: 90px;
 }
@@ -21,6 +25,7 @@
     height: 650px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    margin-top: 100px;
 }
 
 .ms_big .col-12{
@@ -28,7 +33,12 @@
 }
 
 .ms_big .col-12 .content img{
-    width: 10%;
+    width: 30%;
+}
+
+.content{
+    max-width: 500px;
+
 }
 
 .ms_square img{
@@ -114,6 +124,10 @@
     width: 80%;
 }
 
+.sconti{
+    margin-top: 40px;
+}
+
 .sconti img{
     width: 100%;
 }
@@ -138,7 +152,7 @@
 }
 
 .social img{
-    width: 40%;
+    width: 100%;
     
 }
 
