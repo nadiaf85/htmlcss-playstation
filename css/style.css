@@ -5,11 +5,16 @@
 }
 
 .header_top img{
-    height: 30px;
+    height: 25px;
+    width: 5%;
 }
 
 .dropdown-menu img{
     height: 90px;
+}
+
+.dropdown-menu:hover{
+    cursor: pointer;
 }
 
 .ms_big{
@@ -33,6 +38,11 @@
     margin-bottom: 50px;
 }
 
+/* .ms_square .col:hover{
+    cursor: pointer;
+    margin-top: 10px;
+} */
+
 .play5{
     margin-top: 30px;
 }
@@ -42,11 +52,16 @@
 }
 
 .console img{
-    width: 50%
+    width: 100%
 }
 
 .accessori{
     margin-bottom: 30px;
+}
+
+.accessori .col:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .accessori .col img{
@@ -66,6 +81,7 @@
 }
 
 .new{
+    height: 700px;
     margin-bottom: 30px;
     background-color: #191919;
     color: white;
@@ -86,12 +102,16 @@
 
 .plus{
     background-color: lightgray;
-    height: 300px;
+    height: 373px;
     margin-top: 30px;
 }
 
 .plus img{
     width: 40%;
+}
+
+.plus .soul{
+    width: 80%;
 }
 
 .sconti img{
@@ -100,13 +120,17 @@
 
 .now{
     background-color: #000066;
-    height: 400px;
+    height: 430px;
     margin-top: 30px;
     color: white;
 }
 
 .now img{
     width: 40%;
+}
+
+.now .avengers{
+    width: 80%;
 }
 
 .social{
@@ -123,5 +147,9 @@ footer{
     background-color: navy;
     color: white;
     padding: 30px;
+}
+
+.img_footer{
+    width: 10%;
 }
 
