@@ -21,6 +21,15 @@ nav:hover{
     display: block;
 }
 
+nav .nav-link img{
+    width: 12px;
+    margin: 0 5px;
+}
+
+nav span:hover{
+    color: #1e90ff;
+}
+
 .ms_big{
     height: 650px;
     background-image: url(../img/jumbo-bg.png);
@@ -54,6 +63,10 @@ nav:hover{
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+.ms_square img:hover{
+    transform: translate(0, -10px);
 }
 
 .play5{
