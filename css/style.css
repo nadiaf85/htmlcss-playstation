@@ -26,6 +26,18 @@ nav .nav-link img{
     margin: 0 5px;
 }
 
+.ms_img{
+    width: 50px;
+}
+
+.ms_inline_block{
+    display: inline-block;
+}
+
+.ms_inline_block a::before {
+    content: "•";
+}
+
 nav span:hover{
     color: #1e90ff;
 }
@@ -67,6 +79,7 @@ nav span:hover{
 
 .ms_square img:hover{
     transform: translate(0, -10px);
+    cursor: pointer;
 }
 
 .play5{
@@ -79,6 +92,11 @@ nav span:hover{
 
 .console img{
     width: 100%
+}
+
+.console .btn:hover{
+    box-shadow: inset 0 0 0 3px;
+    color: white;
 }
 
 .accessori{
@@ -125,7 +143,6 @@ nav span:hover{
 }
 
 .new{
-    height: 730px;
     margin-bottom: 30px;
     background-color: #191919;
     color: white;
@@ -148,10 +165,19 @@ nav span:hover{
     margin-bottom: 3opx;
 }
 
+.play4 .btn:hover{
+    box-shadow: inset 0 0 0 3px;
+    color: white;
+}
+
 .plus{
     background-color: lightgray;
     height: 373px;
     margin-top: 30px;
+}
+
+.plus .btn:hover{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3)
 }
 
 .plus img{
@@ -188,7 +214,6 @@ nav span:hover{
 }
 
 .social{
-    height: 350px;
     max-width: 500px;
 }
 
@@ -197,7 +222,6 @@ nav span:hover{
 }
 
 footer{
-    height: 600px;
     background-color: navy;
     color: white;
     padding: 30px;
