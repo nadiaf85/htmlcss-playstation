@@ -9,12 +9,21 @@
     width: 5%;
 }
 
+.header-bottom .btn:hover{
+    box-shadow: 0px 0px 0px 2px rgb(255, 255, 255) inset;
+    color: white;
+}
+
 .dropdown-menu img{
     height: 70px;
 }
 
 .dropdown-menu:hover{
     cursor: pointer;
+}
+
+.lens{
+    margin-top: 15px;
 }
 
 nav:hover{
@@ -26,12 +35,31 @@ nav .nav-link img{
     margin: 0 5px;
 }
 
+nav.btn:hover{
+    box-shadow: inset 0 0 0 3px;
+    color: white;
+    opacity: 0.5;
+}
+
+/* .nav-link.show .up:hover{
+    display: inline-block;
+    transform: scaleY(-1);
+} */
+
 .ms_img{
     width: 50px;
 }
 
 .ms_inline_block{
     display: inline-block;
+}
+
+.ms_shadow:hover {
+    box-shadow: 0 0 5px 3px rgba(158, 142, 142, 0.67);
+    cursor: pointer;
+}
+.ms_inline_block a{
+    color: black;
 }
 
 .ms_inline_block a::before {
@@ -80,6 +108,11 @@ nav span:hover{
 .ms_square img:hover{
     transform: translate(0, -10px);
     cursor: pointer;
+}
+
+.ms_square .bordo{
+    border: 1px solid blue;
+    padding: 2px;
 }
 
 .play5{
@@ -211,6 +244,10 @@ nav span:hover{
 
 .now .avengers{
     width: 80%;
+}
+
+.now .btn:hover:hover {
+    box-shadow: 0px 0px 0px 2px rgb(148, 148, 148) inset;
 }
 
 .social{
