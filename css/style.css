@@ -41,10 +41,18 @@ nav.btn:hover{
     opacity: 0.5;
 }
 
-/* .nav-link.show .up:hover{
+.ms_arrow-hover{
+    display: none;
+    transform: rotate(180deg);
+}
+
+.nav-link:hover .ms_arrow-hover{
     display: inline-block;
-    transform: scaleY(-1);
-} */
+}
+
+.nav-link:hover .ms_arrow{
+    display: none;
+}
 
 .ms_img{
     width: 50px;
@@ -67,6 +75,10 @@ nav.btn:hover{
 }
 
 nav span:hover{
+    color: #1e90ff;
+}
+
+nav .ms_sub:hover{
     color: #1e90ff;
 }
 
@@ -144,11 +156,14 @@ nav span:hover{
 .accessori .col img{
     margin-top: 30px;
     width: 45%;
+}
+
+.ms_opacity{
     opacity: 0.5;
 }
 
-.accessori .col img:hover{
-    opacity: 50;
+.accessori .ms_opacity:hover{
+    opacity: 1;
 }
 
 .ms_big2{
@@ -195,7 +210,11 @@ nav span:hover{
 }
 
 .play4{
-    margin-bottom: 3opx;
+    margin-bottom: 30px;
+}
+
+.ms_text{
+    height: 128px;
 }
 
 .play4 .btn:hover{
